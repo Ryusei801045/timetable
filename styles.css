@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.group-entry {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.members input {
+  width: 120px;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+.member-box {
+  display: inline-block;
+  border: 1px solid #999;
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
